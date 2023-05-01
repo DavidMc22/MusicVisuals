@@ -52,8 +52,8 @@ public class Audio1 extends PApplet {
 	}
 
 	public void settings() {
-		//size(2560 ,1600);
 		size(displayWidth, displayHeight);
+		//size(displayWidth, displayHeight);
 	}
 
 	public void setup() {
@@ -140,7 +140,7 @@ public class Audio1 extends PApplet {
 
 			rectMode(PApplet.CENTER);
 
-			fill(0, 0, 255);
+			fill(0, 255, 255);
 			textSize(200);
 			text("E", width / 2 - 350, height / 2 + 80);
 
@@ -161,7 +161,7 @@ public class Audio1 extends PApplet {
 
 			rectMode(PApplet.CENTER);
 
-			fill(5, 92, 242);
+			fill(137, 207, 240);
 			textSize(200);
 			text("EY", width / 2 - 350, height / 2 + 80);
 
@@ -182,7 +182,7 @@ public class Audio1 extends PApplet {
 
 			rectMode(PApplet.CENTER);
 
-			fill(12, 71, 173);
+			fill(0, 150, 255);
 			textSize(200);
 			text("EYE", width / 2 - 350, height / 2 + 80);
 
@@ -202,7 +202,7 @@ public class Audio1 extends PApplet {
 			
 
 			rectMode(PApplet.CENTER);
-			fill(59, 127, 245);
+			fill(125, 249, 255);
 			textSize(200);
 			text("EYEL", width / 2 - 350, height / 2 + 80);
 
@@ -222,7 +222,7 @@ public class Audio1 extends PApplet {
 			
 
 			rectMode(PApplet.CENTER);
-			fill(14, 52, 117);
+			fill(31, 81, 255);
 			textSize(200);
 			text("EYELA", width / 2 - 350, height / 2 + 80);
 
@@ -241,36 +241,50 @@ public class Audio1 extends PApplet {
 			
 
 			rectMode(PApplet.CENTER);
-			fill(12, 98, 245);
+			fill(63, 0, 255);
 			textSize(200);
 			text("EYELAR", width / 2 - 350, height / 2 + 80);
 
 		} else if (seconds >= 20 && seconds < 25) {
 
-			background(51);
-    		rotateX(angleX);
-    		rotateY(angleY);
+			speed = map(mouseX, 0, width, 0, 50);
+			background(0);
+			
+			for (int i = 0; i < stars.size(); i++) {
+			stars.get(i).update();
+			stars.get(i).show();
+			}
+			
+			strokeWeight(1);
+			
 
-   			for (int i = 0; i < total; i++) {
-      		beginShape(TRIANGLE_STRIP);
-      		for (int j = 0; j < total + 1; j++) {
-       		 PVector v1 = globe[i][j];
-				vertex(v1.x + halfW, v1.y + halfH,v1.z);
-       		 //vertex(v1.x, v1.y, v1.z);
-       		 PVector v2 = globe[i + 1][j];
-       		 //vertex(v2.x, v2.y, v2.z);
-			vertex(v2.x + halfW, v2.y + halfH,v2.z);
+			rectMode(PApplet.CENTER);
+			fill(31, 81, 255);
+			textSize(200);
+			text("WELCOME", width / 2 - 500, height / 2 + 80);
 
-      }
+      
      		 endShape();
-    }
-
-    		angleX += 0.005;
-    		angleY += 0.006;
+    
 			
 			
 		} else if (seconds >= 25 && seconds < 35) {
 
+			speed = map(mouseX, 0, width, 0, 50);
+			background(0);
+			
+			for (int i = 0; i < stars.size(); i++) {
+			stars.get(i).update();
+			stars.get(i).show();
+			}
+			
+			strokeWeight(1);
+			
+
+			rectMode(PApplet.CENTER);
+			fill(31, 81, 255);
+			textSize(200);
+			text("WELCOME", width / 2 - 500, height / 2 + 80);
 		}
 
 		else if (seconds >= 35 && seconds < 45) {

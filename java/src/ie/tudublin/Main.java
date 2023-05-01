@@ -20,6 +20,12 @@ public class Main
         processing.core.PApplet.runSketch( a, new Audio1());		
 	}
 
+	public void Example()
+	{
+		String[] a = {"MAIN"};
+        processing.core.PApplet.runSketch( a, new Example());		
+	}
+
 	public static void main(String[] args)
 	{
 		Main main = new Main();
