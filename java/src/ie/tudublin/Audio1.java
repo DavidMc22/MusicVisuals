@@ -72,6 +72,8 @@ public class Audio1 extends PApplet {
             stars.add(new Star());
         }
 
+		
+
 		globe = new PVector[total + 1][total + 1];
 		for (int i = 0; i < total + 1; i++) {
 		  float lat = map(i, 0, total, 0, PI);
@@ -143,6 +145,9 @@ public class Audio1 extends PApplet {
 			fill(0, 255, 255);
 			textSize(200);
 			text("E", width / 2 - 350, height / 2 + 80);
+			
+			
+			
 
 		}
 
