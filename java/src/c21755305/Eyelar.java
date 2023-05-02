@@ -76,11 +76,13 @@ public class Eyelar extends PApplet {
 
 			a1.rectMode(PApplet.CENTER);
 
-			a1.fill(0, 255, 255);
+			a1.fill(0, 150, 255);
 			a1.textSize(200);
 			a1.text("E", width / 2 - 350, height / 2 + 80);
 			
-			
+			a1.fill(63, 0, 255);
+			a1.textSize(200);
+			a1.text("E", width / 2 - 340, height / 2 + 80);
 			
 
 		}
@@ -100,9 +102,13 @@ public class Eyelar extends PApplet {
 
 			a1.rectMode(PApplet.CENTER);
 
-			a1.fill(137, 207, 240);
+			a1.fill(0, 150, 255);
 			a1.textSize(200);
 			a1.text("EY", width / 2 - 350, height / 2 + 80);
+
+			a1.fill(63, 0, 255);
+			a1.textSize(200);
+			a1.text("EY", width / 2 - 340, height / 2 + 80);
 
 		}
 
@@ -125,6 +131,10 @@ public class Eyelar extends PApplet {
 			a1.textSize(200);
 			a1.text("EYE", width / 2 - 350, height / 2 + 80);
 
+			a1.fill(63, 0, 255);
+			a1.textSize(200);
+			a1.text("EYE", width / 2 - 340, height / 2 + 80);
+
 		}
 
 		else if (seconds >= 12 && seconds < 15) {
@@ -141,9 +151,14 @@ public class Eyelar extends PApplet {
 			
 
 			a1.rectMode(PApplet.CENTER);
-			a1.fill(125, 249, 255);
+
+		    a1.fill(0, 150, 255);
 			a1.textSize(200);
 			a1.text("EYEL", width / 2 - 350, height / 2 + 80);
+
+			a1.fill(63, 0, 255);
+			a1.textSize(200);
+			a1.text("EYEL", width / 2 - 340, height / 2 + 80);
 
 		}
 
@@ -161,9 +176,13 @@ public class Eyelar extends PApplet {
 			
 
 			a1.rectMode(PApplet.CENTER);
-			a1.fill(31, 81, 255);
+		    a1.fill(0, 150, 255);
 			a1.textSize(200);
 			a1.text("EYELA", width / 2 - 350, height / 2 + 80);
+
+			a1.fill(63, 0, 255);
+			a1.textSize(200);
+			a1.text("EYELA", width / 2 - 340, height / 2 + 80);
 
 		}
 
@@ -180,9 +199,14 @@ public class Eyelar extends PApplet {
 			
 
 			a1.rectMode(PApplet.CENTER);
-			a1.fill(63, 0, 255);
+
+		    a1.fill(0, 150, 255);
 			a1.textSize(200);
 			a1.text("EYELAR", width / 2 - 350, height / 2 + 80);
+
+			a1.fill(63, 0, 255);
+			a1.textSize(200);
+			a1.text("EYELAR", width / 2 - 340, height / 2 + 80);
 
 		} else if (seconds >= 20 && seconds < 25) {
 
@@ -198,9 +222,13 @@ public class Eyelar extends PApplet {
 			
 
 			a1.rectMode(PApplet.CENTER);
-			a1.fill(31, 81, 255);
+	        a1.fill(0, 150, 255);
 			a1.textSize(200);
 			a1.text("WELCOME", width / 2 - 500, height / 2 + 80);
+
+			a1.fill(63, 0, 255);
+			a1.textSize(200);
+			a1.text("WELCOME", width / 2 - 490, height / 2 + 80);
 
       
      		 a1.endShape();

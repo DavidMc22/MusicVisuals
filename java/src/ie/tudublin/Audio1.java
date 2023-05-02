@@ -142,12 +142,13 @@ public class Audio1 extends PApplet {
 
 			rectMode(PApplet.CENTER);
 
-			fill(0, 255, 255);
+			fill(0, 150, 255);
 			textSize(200);
 			text("E", width / 2 - 350, height / 2 + 80);
-			
-			
-			
+
+			fill(63, 0, 255);
+			textSize(200);
+			text("E", width / 2 - 340, height / 2 + 80);
 
 		}
 
@@ -166,9 +167,13 @@ public class Audio1 extends PApplet {
 
 			rectMode(PApplet.CENTER);
 
-			fill(137, 207, 240);
+			fill(0, 150, 255);
 			textSize(200);
 			text("EY", width / 2 - 350, height / 2 + 80);
+
+			fill(63, 0, 255);
+			textSize(200);
+			text("EY", width / 2 - 340, height / 2 + 80);
 
 		}
 
@@ -191,6 +196,12 @@ public class Audio1 extends PApplet {
 			textSize(200);
 			text("EYE", width / 2 - 350, height / 2 + 80);
 
+			fill(63, 0, 255);
+			textSize(200);
+			text("EYE", width / 2 - 340, height / 2 + 80);
+
+		
+
 		}
 
 		else if (seconds >= 12 && seconds < 15) {
@@ -207,9 +218,13 @@ public class Audio1 extends PApplet {
 			
 
 			rectMode(PApplet.CENTER);
-			fill(125, 249, 255);
+			fill(0, 150, 255);
 			textSize(200);
 			text("EYEL", width / 2 - 350, height / 2 + 80);
+
+			fill(63, 0, 255);
+			textSize(200);
+			text("EYEL", width / 2 - 340, height / 2 + 80);
 
 		}
 
@@ -227,9 +242,13 @@ public class Audio1 extends PApplet {
 			
 
 			rectMode(PApplet.CENTER);
-			fill(31, 81, 255);
+			fill(0, 150, 255);
 			textSize(200);
 			text("EYELA", width / 2 - 350, height / 2 + 80);
+
+			fill(63, 0, 255);
+			textSize(200);
+			text("EYELA", width / 2 - 340, height / 2 + 80);
 
 		}
 
@@ -246,9 +265,13 @@ public class Audio1 extends PApplet {
 			
 
 			rectMode(PApplet.CENTER);
-			fill(63, 0, 255);
+			fill(0, 150, 255);
 			textSize(200);
 			text("EYELAR", width / 2 - 350, height / 2 + 80);
+
+			fill(63, 0, 255);
+			textSize(200);
+			text("EYELAR", width / 2 - 340, height / 2 + 80);
 
 		} else if (seconds >= 20 && seconds < 25) {
 
@@ -264,10 +287,13 @@ public class Audio1 extends PApplet {
 			
 
 			rectMode(PApplet.CENTER);
-			fill(31, 81, 255);
+			fill(0, 150, 255);
 			textSize(200);
 			text("WELCOME", width / 2 - 500, height / 2 + 80);
 
+			fill(63, 0, 255);
+			textSize(200);
+			text("WELCOME", width / 2 - 490, height / 2 + 80);
       
      		 endShape();
     
