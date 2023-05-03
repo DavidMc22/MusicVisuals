@@ -19,6 +19,10 @@ Our groups Music Visualizer compiles a montage of different visuals all inspired
 press fn + f5 and watch the code on VSC, also press spacebar and it begins.
 or watch it here on Youtube: https://youtu.be/dfZdfHreKV8
 
+
+## Screenshots
+
+
 # How it works
 ### Timer
 A timing system used throughout the program that dictates which visuals play at which time. Depending on the time set.
@@ -46,3 +50,96 @@ It is similiar also to the horizon vertex, the circles were removed and it gradu
 - How creative we became with coming up with and implementing the different visual animations with the music.
 - How well the animations worked together all being linked by a starry night and a blue pallet of colours.
 - Gaining a greater understanding of java processing systems.
+
+## Screenshots
+![A different image](https://oopassignment.files.wordpress.com/2023/05/eyelar-1.jpeg?w=1024)
+
+# List of classes/assets
+
+| Class/asset | Source |
+|-----------|-----------|
+| MyClass.cs | Self written |
+| MyClass1.cs | Modified from [reference]() |
+| MyClass2.cs | From [reference]() |
+
+Each team member or individual needs to write a paragraph or two explaining what they contributed to the project
+
+- What they did
+- What they are most proud of
+- What they learned
+
+# References
+* Item 1
+* Item 2
+
+# From here on, are examples of how to different things in Markdown. You can delete.  
+
+## This is how to markdown text:
+
+This is *emphasis*
+
+This is a bulleted list
+
+- Item
+- Item
+
+This is a numbered list
+
+1. Item
+1. Item
+
+This is a [hyperlink](http://bryanduggan.org)
+
+# Headings
+## Headings
+#### Headings
+##### Headings
+
+This is code:
+
+```Java
+public void render()
+{
+	ui.noFill();
+	ui.stroke(255);
+	ui.rect(x, y, width, height);
+	ui.textAlign(PApplet.CENTER, PApplet.CENTER);
+	ui.text(text, x + width * 0.5f, y + height * 0.5f);
+}
+```
+
+So is this without specifying the language:
+
+```
+public void render()
+{
+	ui.noFill();
+	ui.stroke(255);
+	ui.rect(x, y, width, height);
+	ui.textAlign(PApplet.CENTER, PApplet.CENTER);
+	ui.text(text, x + width * 0.5f, y + height * 0.5f);
+}
+```
+
+This is an image using a relative URL:
+
+![An image](images/p8.png)
+
+This is an image using an absolute URL:
+
+![A different image](https://bryanduggandotorg.files.wordpress.com/2019/02/infinite-forms-00045.png?w=595&h=&zoom=2)
+
+This is a youtube video:
+
+[![YouTube](http://img.youtube.com/vi/J2kHSSFA4NU/0.jpg)](https://www.youtube.com/watch?v=J2kHSSFA4NU)
+
+This is a table:
+
+| Heading 1 | Heading 2 |
+|-----------|-----------|
+|Some stuff | Some more stuff in this column |
+|Some stuff | Some more stuff in this column |
+|Some stuff | Some more stuff in this column |
+|Some stuff | Some more stuff in this column |
+
+
